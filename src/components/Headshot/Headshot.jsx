@@ -1,8 +1,13 @@
 import React from "react";
 import headshotImage from "../../assets/images/portrait-img.jpg";
+import "./headshot.css";
 
 const Headshot = () => {
-  return <img src={headshotImage} alt="Photo Naike" />;
+  return (
+    <div className="image-wrapper">
+      <img src={headshotImage} className="headshot" alt="Photo Naike" />
+    </div>
+  );
 };
 
 export default Headshot;
