@@ -2,7 +2,7 @@ import React from "react";
 import "./background.css";
 import { Link, NavLink } from "react-router-dom";
 
-function Welcome() {
+function Home() {
   return (
     <div className="welcome-container">
       <link
@@ -25,7 +25,7 @@ function Welcome() {
         Browse my Portfolio
       </p>
       <Link
-        to="/home"
+        to="/about"
         end
         className={({ isActive }) => (isActive ? "link active" : "link")}
       >
@@ -44,4 +44,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export default Home;

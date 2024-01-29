@@ -23,17 +23,6 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
-                to="/welcome"
-                end
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-              >
-                Welcome
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
                 to="/home"
                 end
                 className={({ isActive }) =>
@@ -41,6 +30,17 @@ function Navbar() {
                 }
               >
                 Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/about"
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                About
               </NavLink>
             </li>
             <li className="nav-item">
