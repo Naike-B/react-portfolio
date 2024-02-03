@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/home">
-          Portfolio
+          <img src="src/assets/images/main-logo-08.png" alt="logo" />
         </Link>
         <button
           className="navbar-toggler"

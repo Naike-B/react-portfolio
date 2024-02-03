@@ -2,7 +2,7 @@ body{
   margin: 0;
   height: 100vh;
   font-weight: 100;
-  background: radial-gradient(#a23982,#1f1013);
+  background: radial-gradient(#23c686,#1d3853);
   -webkit-overflow-y: hidden;
   -moz-overflow-y: hidden;
   -o-overflow-y: hidden;
@@ -342,13 +342,4 @@ to{opacity: 1;}
 100%{opacity: 1;}
 }
 
-#footer{
-font-family: 'Roboto', sans-serif;
-font-size: 1.2em;
-color: white;
-position: fixed;
--webkit-transform: translate(95vw,90vh);
--moz-transform: translate(95vw,90vh);
-transform: translate(95vw,90vh);
-transform: translate(95vw,90vh);
-}
+
