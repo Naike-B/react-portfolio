@@ -1,10 +1,16 @@
 import React from "react";
 import "./background.css";
-import { Link, NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/about");
+  };
+
   return (
-    <div className="welcome-container">
+    <div className="home-container">
       <link
         href="https://fonts.googleapis.com/css?family=Roboto:100"
         rel="stylesheet"
@@ -24,13 +30,10 @@ function Home() {
       <p id="head5" className="header">
         Browse my Portfolio
       </p>
-      <Link
-        to="/about"
-        end
-        className={({ isActive }) => (isActive ? "link active" : "link")}
-      >
-        <button className="continue-btn">Continue</button>
-      </Link>
+      <button className="continue-btn" onClick={handleButtonClick}>
+        Continue
+      </button>
+
       <div className="light x1"></div>
       <div className="light x2"></div>
       <div className="light x3"></div>
