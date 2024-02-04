@@ -9,16 +9,24 @@ import "./gallery.css";
 
 function ProjectsGallery() {
   return (
-    <Container>
+    <Container className="gallery-container">
+      <h1 className="gallery-title text-center">Projects</h1>
       <Row>
         {ProjectsData.map((project) => (
           <Col sm={12} md={6} lg={4} className="mb-4" key={project.id}>
-            <Link to={`/projects/${project.id}`}>
-              <Card className="project-card">
+            <Link
+              to={`/projects/${project.id}`}
+              className="text-decoration-none"
+            >
+              <Card className="project-card border-0">
                 <Card.Img variant="top" src={project.image} />
                 <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.technologies}</Card.Text>
+                  <Card.Title className="project-card-title">
+                    {project.title}
+                  </Card.Title>
+                  <Card.Text className="project-card-text">
+                    {project.technologies}
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Link>

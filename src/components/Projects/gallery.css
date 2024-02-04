@@ -1,7 +1,30 @@
-.gallery-body {
-  background: radial-gradient(#23c686, #1d3853);
-}
-
 .project-card {
   width: 18rem;
+  margin: auto;
+  background-color: #1d3853 !important;
+}
+.gallery-container {
+  margin-top: 2%;
+}
+
+.gallery-title {
+  margin-bottom: 5%;
+  font-size: 4em;
+  color: white;
+}
+
+.project-card-title {
+  font-size: 25px !important;
+  color: white !important;
+}
+
+.project-card-text {
+  font-size: 16px !important;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    flex-direction: column;
+  }
 }

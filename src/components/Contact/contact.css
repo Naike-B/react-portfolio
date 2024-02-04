@@ -1,0 +1,87 @@
+#contact-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  margin-bottom: 5%;
+  font-size: 4em;
+  color: white;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+#contact-icon {
+  font-size: 2.5em;
+  color: #1d3853;
+  margin-right: 10%;
+  margin-top: 20%;
+  transition: transform 0.3s ease-in-out;
+}
+
+#contact-icon:hover {
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.3);
+}
+
+#resume-btn {
+  border: 2px solid white;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 1.6em;
+  border-radius: 5px;
+  opacity: 0.5;
+  margin: auto;
+  transition: 0.3s;
+}
+
+#resume-btn:hover {
+  border: 2px solid #104f55;
+  background-color: rgba(365, 365, 365, 0.5);
+  cursor: pointer;
+  color: #104f55;
+  opacity: 0.8;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#submit-btn {
+  border: 2px solid white;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 1.6em;
+  border-radius: 5px;
+  opacity: 0.5;
+  margin-top: 10%;
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  border: 2px solid #104f55;
+  background-color: rgba(365, 365, 365, 0.5);
+  cursor: pointer;
+  color: #104f55;
+  opacity: 0.8;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .contact-info-wrapper {
+    flex-direction: column;
+  }
+}
