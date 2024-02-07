@@ -1,34 +1,22 @@
-/* Navigation bar */
 .nav-link {
-  font-size: large !important;
+  font-weight: bold !important;
 }
-
-/*Sets the background color and max width of the navigation bar*/
 .navbar {
   max-width: 100%;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  border-top: 3px solid black !important;
+  margin-top: 1.2rem !important;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
-/*Sets the margin left and right of the navigation bar*/
-.navbar-nav {
-  margin-left: auto;
-  margin-right: 0 !important;
-}
-
-/*Sets the margin of the line items belonging to the unordered list in the navbar section*/
 .nav-item {
-  margin: 0rem 0.9375rem;
+  padding: 0rem 10rem;
 }
-/*Sets the color of the text of the navbar anchor links*/
 .nav-link {
-  color: white !important;
+  color: black !important;
+  flex-grow: 1 !important;
 }
-
-/*Sets the padding right of the navbar logo*/
-.navbar-brand img {
-  padding-left: 0.9rem;
-  width: 4.0625rem;
-}
-
 .navbar-toggler {
-  color: white !important;
-  border-color: white !important;
+  color: black !important;
 }

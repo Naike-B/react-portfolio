@@ -1,14 +1,15 @@
 #contact-container {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .contact-title {
-  margin-bottom: 5%;
-  font-size: 4em;
-  color: white;
+  margin-top: 10%;
+  font-size: 5em;
+  font-family: "Bebas Neue";
+  color: black;
 }
 
 .contact-info-wrapper {
@@ -18,70 +19,77 @@
   gap: 2rem;
 }
 
+.contact-form {
+  margin: 6%;
+  font-family: "Bebas Neue";
+  color: black;
+}
+
 #contact-icon {
   font-size: 2.5em;
-  color: #1d3853;
+  color: #fd1519;
   margin-right: 10%;
-  margin-top: 20%;
+  margin-top: 60%;
   transition: transform 0.3s ease-in-out;
 }
 
 #contact-icon:hover {
-  color: white;
+  color: black;
   transition: transform 0.3s ease-in-out;
   transform: scale(1.3);
 }
 
 #resume-btn {
-  border: 2px solid white;
-  background: transparent;
-  font-family: "Roboto", sans-serif;
-  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #fbc34a;
+  color: black;
   width: 200px;
   height: 50px;
-  font-size: 1.6em;
+  font-size: 1.3em;
   border-radius: 5px;
-  opacity: 0.5;
+  border-color: black;
+  border-width: 0.18rem;
   margin: auto;
   transition: 0.3s;
 }
 
 #resume-btn:hover {
-  border: 2px solid #104f55;
-  background-color: rgba(365, 365, 365, 0.5);
-  cursor: pointer;
-  color: #104f55;
-  opacity: 0.8;
-  transition: 0.3s;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 #submit-btn {
-  border: 2px solid white;
-  background: transparent;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  width: 100px;
-  height: 50px;
-  font-size: 1.6em;
-  border-radius: 5px;
-  opacity: 0.5;
+  background-color: #fd1519;
+  color: black;
+  border-width: 0.18rem;
   margin-top: 10%;
   transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 #submit-btn:hover {
-  border: 2px solid #104f55;
-  background-color: rgba(365, 365, 365, 0.5);
-  cursor: pointer;
-  color: #104f55;
-  opacity: 0.8;
-  transition: 0.3s;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
   .contact-info-wrapper {
     flex-direction: column;
+  }
+  .contact-icon {
+    margin-right: 0px;
+  }
+  .contact-link-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contact-form {
+    margin-left: 0;
   }
 }

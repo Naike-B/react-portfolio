@@ -2,32 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   flex-direction: column;
+  padding: 5rem;
+  margin-top: 12%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  border: 0;
 }
 
 #about-title {
-  font-size: 4em;
+  font-size: 5rem !important;
+  font-family: "Bebas Neue";
+  color: black;
 }
 
 #about-img {
+  display: inline-block;
   border-color: none;
   border-radius: 10%;
-  box-shadow: rgba(29, 56, 83, 0.4) -5px 5px, rgba(29, 56, 83, 0.3) -10px 10px,
-    rgba(29, 56, 83, 0.2) -15px 15px, rgba(29, 56, 83, 0.1) -20px 20px,
-    rgba(29, 56, 83, 0.05) -25px 25px;
-}
-
-#about-img::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(52, 188, 203, 0.5);
-  transition: background-color 0.5s ease;
-  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 #about-img:hover::after {
@@ -42,13 +47,32 @@
 
 .about-card-text {
   font-size: x-large;
+  color: black !important;
+  background-color: #fbc34a !important;
+  font-family: "Montserrat", sans-serif;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 8%;
+  padding: 5%;
 }
 
 /* Media queries */
 
 @media (min-width: 768px) {
+  .nav-item {
+    padding: 0.05rem;
+  }
+
   #about-container {
-    height: 80vh;
-    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #about-title {
+    font-size: 2em;
+  }
+
+  .about-card-text {
+    font-size: 1.2em;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import headshotImage from "/src/assets/images/portrait-img.jpg";
+import headshotImage from "/src/assets/images/headshot.jpg";
 import "./about.css";
 
 function About() {
@@ -10,7 +10,7 @@ function About() {
           <div className="col-lg-8 col-md-8 col-sm-12">
             <div className="card border-0 bg-transparent">
               <div className="card-body text-start text-white">
-                <h1 className="text-start text-white" id="about-title">
+                <h1 className="text-start" id="about-title">
                   About Me
                 </h1>
                 <p className="about-card-text">

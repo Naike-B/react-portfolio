@@ -10,11 +10,8 @@ function Contact() {
       <div className="container-lg text-center">
         <h1 className="contact-title">Get in touch!</h1>
         <div className="contact-info-wrapper d-flex justify-content-center">
-          <div className="contact-details me-4">
-            <h2 className="card-title text-white" id="contact-subtitle">
-              Contact:
-            </h2>
-            <p>
+          <div className="contact-details">
+            <p className="contact-link-container">
               <a href="mailto:nbi.study2@gmail.com">
                 <i className="fa-solid fa-envelope" id="contact-icon"></i>
               </a>
@@ -26,13 +23,13 @@ function Contact() {
               </a>
             </p>
             <a href={Document} download="document.pdf">
-              <button
-                type="button"
-                className="btn custom-button-resume col-md-3 col-sm-12"
+              <Button
+                className="custom-button-resume border-black"
                 id="resume-btn"
+                type="button"
               >
                 Download CV
-              </button>
+              </Button>
             </a>
           </div>
           <div className="contact-form">
@@ -52,7 +49,7 @@ function Contact() {
                 <Form.Label>Message:</Form.Label>
                 <Form.Control as="textarea" rows={3} required />
               </Form.Group>
-              <Button id="submit-btn" type="submit">
+              <Button className="border-black" id="submit-btn" type="submit">
                 Send
               </Button>
             </Form>

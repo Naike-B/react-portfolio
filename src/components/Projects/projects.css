@@ -1,0 +1,48 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-link {
+  text-decoration: none;
+  margin: 2%;
+}
+
+.project-title {
+  font-size: 5em;
+  font-family: "Bebas Neue";
+}
+
+.project-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  color: black !important;
+  background-color: #fbc34a !important;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 8%;
+  padding: 5%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-icon {
+  font-size: 2.5em;
+  color: #fd1519;
+  margin-right: 10%;
+  margin-top: 60%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-icon:hover {
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.3);
+}
