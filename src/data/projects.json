@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Yūgen",
-    "image": "/public/images/project-1.png",
+    "image": "images/project-1.png",
     "technologies": "HTML / CSS/ JavaScript / APIs",
     "description": "This is a  travel inspiration platform that allows users to experience the deeper connections between cultures, landscapes, and personal growth on every journey. Users can search for a country that they would like to find out more about. They will be presented with inspiring information, images and potential activities for the destination. Users can also save their favourite countries for future reference.",
     "github": "https://tejpatta.github.io/Travel-Inspiration/",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Readme Generator",
-    "image": "public/images/project-2.png",
+    "image": "images/project-2.png",
     "technologies": "JavaScript / Node.js",
     "description": "This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. It allows the user to quickly create a professional README for a new project.",
     "github": "https://github.com/Naike-B/Readme-generator",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Work day Scheduler",
-    "image": "/public/images/project-3.png",
+    "image": "images/project-3.png",
     "technologies": "HTML / CSS / JQuery",
     "description": "This is a work day scheduler that employees with a busy schedule can use to add important events in order to manage their time effectively.",
     "github": "https://github.com/Naike-B/Work-Day-Scheduler/tree/main",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Coding Quiz",
-    "image": "/public/images/project-4.png",
+    "image": "images/project-4.png",
     "technologies": "Javascript / JSON",
     "description": "This is a quiz about JavaScript where the user has a set time to answer multiple choice questions and has the option to save the score and initials which are then displayed on another page showing the game high scores.",
     "github": "https://github.com/Naike-B/Code-Quiz",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Password Generator",
-    "image": "/public/images/project-5.png",
+    "image": "images/project-5.png",
     "technologies": "HTML / CSS / JavaScript",
     "description": "This application was made to help users creating a new password that is randomly generated.",
     "github": "https://naike-b.github.io/Password-Generator/",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Bootstrap Portfolio",
-    "image": "/public/images/project-6.png",
+    "image": "images/project-6.png",
     "technologies": "HTML / CSS / Bootstrap",
     "description": "This is my personal Portfolio created using Bootstrap.",
     "github": "https://github.com/Naike-B/Bootstrap-Portfolio",

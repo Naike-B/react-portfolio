@@ -1,5 +1,5 @@
 import React from "react";
-import Document from "/src/public/document.pdf";
+import Document from "document.pdf";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./contact.css";
