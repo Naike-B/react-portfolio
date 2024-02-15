@@ -1,4 +1,5 @@
 import React from "react";
+import HomeLogo from "/src/public/images/home-logo-3.png";
 import "./footer-home.css";
 
 function HomeFooter() {
@@ -6,7 +7,7 @@ function HomeFooter() {
     <>
       <footer className="home-footer">
         <img
-          src="/src/public/images/home-logo-3.png"
+          src={HomeLogo}
           alt="Bottom Left Image"
           className="bottom-left-image"
         />
