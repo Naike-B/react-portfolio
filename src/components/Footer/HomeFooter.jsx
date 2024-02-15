@@ -1,5 +1,5 @@
 import React from "react";
-import HomeLogo from "/src/public/images/home-logo-3.png";
+import HomeLogo from "/public/images/home-logo-3.png";
 import "./footer-home.css";
 
 function HomeFooter() {
