@@ -22,7 +22,11 @@
 .contact-form {
   margin: 6%;
   font-family: "Bebas Neue";
-  color: black;
+  color: white;
+  background-color: #000000;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #contact-icon {
@@ -63,7 +67,7 @@
 
 #submit-btn {
   background-color: #fd1519;
-  color: black;
+  color: white;
   border-width: 0.18rem;
   margin-top: 10%;
   transition: 0.3s;
@@ -72,24 +76,28 @@
 }
 
 #submit-btn:hover {
-  background-color: black;
-  color: white;
+  background-color: #fbc34a;
+  color: black;
   transition: transform 0.3s ease-in-out;
   transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
+  #contact-container {
+    margin-top: 30px;
+  }
+
   .contact-info-wrapper {
     flex-direction: column;
+    justify-content: center;
   }
-  .contact-icon {
-    margin-right: 0px;
-  }
+
   .contact-link-container {
     display: flex;
     justify-content: space-evenly;
   }
-  .contact-form {
-    margin-left: 0;
+
+  #contact-icon {
+    margin-bottom: 20px;
   }
 }

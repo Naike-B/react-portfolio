@@ -20,3 +20,40 @@
 .navbar-toggler {
   color: black !important;
 }
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding: 0rem 1rem;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar {
+    margin-bottom: 2rem;
+    border-top: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    padding: 0rem 2rem;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 0 1rem;
+  }
+}

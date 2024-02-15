@@ -6,7 +6,7 @@ function HomeFooter() {
     <>
       <footer className="home-footer">
         <img
-          src="/src/assets/images/home-logo-3.png"
+          src="/src/public/images/home-logo-3.png"
           alt="Bottom Left Image"
           className="bottom-left-image"
         />
