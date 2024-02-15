@@ -12,7 +12,7 @@ No installation required.
 
 ## Usage
 
-To use this page, navigate to [react-portfolio](). You can use the links at the top, to be redirected to the relative section of the page where you can review the related content.
+To use this page, navigate to [Naike's portfolio](https://naikebindella.netlify.app/). You can use the links at the top, to be redirected to the relative section of the page where you can review the related content.
 
 Here's how the page looks:
 
